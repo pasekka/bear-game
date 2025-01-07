@@ -1,0 +1,110 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>dd878a1b-a204-4a0f-9eb3-369770f3395d</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Game.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Game</Name>
+    <RootNamespace>Game</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\..\Практика алгоритмизация - помочь пацко\Game.py">
+      <Link>Game.py</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="audio\" />
+    <Folder Include="fonts\" />
+    <Folder Include="game\" />
+    <Folder Include="game\audio\" />
+    <Folder Include="game\fonts\" />
+    <Folder Include="game\sprites\" />
+    <Folder Include="game\sprites\assets\" />
+    <Folder Include="game\sprites\assets\bee\" />
+    <Folder Include="game\sprites\movement_down\" />
+    <Folder Include="game\sprites\movement_left\" />
+    <Folder Include="game\sprites\movement_right\" />
+    <Folder Include="sprites\" />
+    <Folder Include="sprites\assets\" />
+    <Folder Include="sprites\assets\bee\" />
+    <Folder Include="sprites\movement_down\" />
+    <Folder Include="sprites\movement_left\" />
+    <Folder Include="sprites\movement_right\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="audio\bg_music.mp3" />
+    <Content Include="audio\reloading.ogg" />
+    <Content Include="audio\reloading.ogg.sfk" />
+    <Content Include="audio\shot.ogg" />
+    <Content Include="fonts\Gagalin-Regular.otf" />
+    <Content Include="fonts\GaneshaType-Regular.ttf" />
+    <Content Include="game\audio\bg_music.mp3" />
+    <Content Include="game\audio\reloading.ogg" />
+    <Content Include="game\audio\reloading.ogg.sfk" />
+    <Content Include="game\audio\shot.ogg" />
+    <Content Include="game\fonts\Gagalin-Regular.otf" />
+    <Content Include="game\fonts\GaneshaType-Regular.ttf" />
+    <Content Include="game\sprites\assets\back.png" />
+    <Content Include="game\sprites\assets\bee\bee1.png" />
+    <Content Include="game\sprites\assets\bee\bee2.png" />
+    <Content Include="game\sprites\assets\bee\bee3.png" />
+    <Content Include="game\sprites\assets\bee\bee4.png" />
+    <Content Include="game\sprites\assets\bush1.png" />
+    <Content Include="game\sprites\assets\crate.png" />
+    <Content Include="game\sprites\assets\projectile.png" />
+    <Content Include="game\sprites\movement_down\bear1.png" />
+    <Content Include="game\sprites\movement_down\bear2.png" />
+    <Content Include="game\sprites\movement_down\bear3.png" />
+    <Content Include="game\sprites\movement_down\bear4.png" />
+    <Content Include="game\sprites\movement_left\bearL1.png" />
+    <Content Include="game\sprites\movement_left\bearL2.png" />
+    <Content Include="game\sprites\movement_left\bearL3.png" />
+    <Content Include="game\sprites\movement_left\bearL4.png" />
+    <Content Include="game\sprites\movement_right\bearR1.png" />
+    <Content Include="game\sprites\movement_right\bearR2.png" />
+    <Content Include="game\sprites\movement_right\bearR3.png" />
+    <Content Include="game\sprites\movement_right\bearR4.png" />
+    <Content Include="sprites\assets\back.png" />
+    <Content Include="sprites\assets\bee\bee1.png" />
+    <Content Include="sprites\assets\bee\bee2.png" />
+    <Content Include="sprites\assets\bee\bee3.png" />
+    <Content Include="sprites\assets\bee\bee4.png" />
+    <Content Include="sprites\assets\bush1.png" />
+    <Content Include="sprites\assets\crate.png" />
+    <Content Include="sprites\assets\projectile.png" />
+    <Content Include="sprites\movement_down\bear1.png" />
+    <Content Include="sprites\movement_down\bear2.png" />
+    <Content Include="sprites\movement_down\bear3.png" />
+    <Content Include="sprites\movement_down\bear4.png" />
+    <Content Include="sprites\movement_left\bearL1.png" />
+    <Content Include="sprites\movement_left\bearL2.png" />
+    <Content Include="sprites\movement_left\bearL3.png" />
+    <Content Include="sprites\movement_left\bearL4.png" />
+    <Content Include="sprites\movement_right\bearR1.png" />
+    <Content Include="sprites\movement_right\bearR2.png" />
+    <Content Include="sprites\movement_right\bearR3.png" />
+    <Content Include="sprites\movement_right\bearR4.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
